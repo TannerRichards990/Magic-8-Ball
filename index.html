@@ -18,10 +18,21 @@
 <body>
     <header>
         <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>Magic 8 Ball</h1>
     </header>
 
     <main>
+        <section id="question">
+        <label>Type your question underneath here and see what Magic 8 Ball's fortune has to say!</label>
+        <text-area id="your-question"></text-area>
+        <button id="ask-button">❓</button>
+        </section>
+
+        <section id="answer" class="hidden">
+        <p id="question display"></p>
+        <span id="crystal-ball" class="Magic 8 Ball"></span>
+        <p id="answer-display"></p>
+        </section>
 
     </main>
 
