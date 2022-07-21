@@ -1,5 +1,5 @@
 :root {
-    --background: white;
+    --background: rgb(224, 234, 247);
     --header-background: white;
     --footer-background: rgb(243, 242, 242);
 }
@@ -34,12 +34,12 @@ footer {
     background-color: var(--footer-background);
 }
 
-section {
+.top-sec {
     margin: 0 auto;
     width: max-content;
     text-align: center;
     display: grid;
-    background:aquamarine;
+    background: forestgreen;
     align-content: space-between;
     justify-items: center;
     padding: 20px;
@@ -53,6 +53,72 @@ textarea {
 }
 
 .hidden {
-    display: none;
+    display: flex;
 }
 
+.magic-ball {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.magicball__outer {
+    width: 300px;
+    height: 300px;
+    background: #111;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    box-shadow: 10px 10px 30px rgb(13, 15, 12), -10px -10px 30px #4a4a4a;
+    color: black;
+    position: relative;
+}
+
+.magicball__inner {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magicball_response {
+    font-size: 8rem;
+    text-align: center;
+    color: black;
+    line-height: 1.2rem;
+}
+
+.magic__spotlight {
+position: absolute;
+width: 250px;
+height: 250px;
+top: 5px;
+border-radius: 50%;
+background: #333;
+opacity: 0.2;
+}
+
+.magicball__main_shadow{
+position: absolute;
+}
+
+.magicball__upper_shadow{
+position: absolute;
+width: 175px; 
+height: 175px;
+top: 0px;
+border-radius: 50%;
+
+
+}
+
+.magicball__lower_shadow{
+position: absolute;
+}
+
+    
