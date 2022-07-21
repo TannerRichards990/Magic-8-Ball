@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background: white;
     --header-background: white;
     --footer-background: rgb(243, 242, 242);
 }
@@ -32,4 +32,24 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+section {
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    display: grid;
+    background:aquamarine;
+    align-content: space-between;
+    justify-items: center;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    resize: vertical;
+}
+
+.hidden {
+    display: none;
 }
