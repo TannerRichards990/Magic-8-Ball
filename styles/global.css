@@ -84,6 +84,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999; 
 }
 
 .magicball_response {
@@ -105,20 +106,32 @@ opacity: 0.2;
 
 .magicball__main_shadow{
 position: absolute;
-}
-
-.magicball__upper_shadow{
-position: absolute;
 width: 175px; 
 height: 175px;
 top: 0px;
 border-radius: 50%;
+background: #666;
+opacity: 0.2;
+}
 
-
+.magicball__upper_shadow{
+position: absolute;
+width: 75px;
+height: 50px;
+top: 5px;
+background: #AAA;
+opacity: 0.8;
+border-radius: 50%;
 }
 
 .magicball__lower_shadow{
 position: absolute;
+width: 175px;
+height: 175px;
+top: 5px;
+background: #AAA;
+opacity: 0.8;
+border-radius: 50%;
 }
 
     
